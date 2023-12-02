@@ -1,0 +1,250 @@
+#signup-wrapper{
+    width: 100vw;
+    background-image: url('../images/hilalbackground.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logoImg{
+    margin-top: 170px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 0px;
+}
+.inputs-wrapper{
+    margin-top: 160px;
+}
+.custom-input{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.custom-input-field{
+    all: unset;
+    width: 80%;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+.user-icon{
+    font-size: 24px;
+}
+.options-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px 10px;
+    margin-top: 14px;
+}
+#custom-button{
+    all: unset;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 12px 0px;
+    border-radius: 40px;
+    margin-top: 36px;
+}
+.create{
+    margin-top: 20px !important;
+}
+.or-section{
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lines{
+    width: 40%;
+    height: 1px;
+    background-color: gray;
+}
+.show-hide{
+    font-size: 16px;
+}
+.no-icons{
+    padding: 8px 0px !important;
+}
+.basics-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.basics{
+    margin-top: 120px !important;
+}
+#basic-inputs{
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS for username component */
+.photo-selector{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.choose-photo{
+    all: unset;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    padding: 14px 0px;
+    color: white;
+    margin-top: 40px;
+}
+.avatar{
+    width: 50%;
+    margin-top: 16px;
+}
+.input-username{
+    border-radius: 10px;
+}
+.bismillah{
+    width: 30%;
+}
+/* OTP overlay css */
+.otp-overlay{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+}
+.otp-form{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otp-wrapper{
+    border-radius: 12px;
+    background: rgba( 255, 255, 255, 0.35 );
+    background: rgba( 11, 10, 10, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.otp-title{
+    font-size: 24px;
+    font-weight: bold !important;
+}
+.otp-verification{
+    font-size: 14px;
+}
+.input-fields-otp{
+    display: flex;
+    justify-content: center;
+}
+.otp-input{
+    width:40px;
+    margin: 10px;
+    padding: 10px 0px;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.resend{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.otp-button{
+    width: 55% !important;
+    margin-top: 100px !important;
+}
+.forgot-wrapper{
+    padding:40px !important;
+}
+.forgot-desc{
+    padding: 0px 110px;
+}
+.forgot-button{
+    margin-top: 100px !important;
+    border: 1px solid white !important;
+}
+.code-info{
+    font-size: 14px;
+}
+.forgot-clickable:hover{
+    color: blue;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    .logoImg{
+       margin-top: 0px;
+       width: 40%;
+       margin: 20px;
+    }
+    .title{
+        font-size: 20px;
+        padding: 0px;
+    }
+    .inputs-wrapper{
+        margin-top: 24px;
+    }
+    .custom-input{
+        padding: 12px 12px;
+    }
+    .custom-input-field{
+        font-size: 12px;
+    }
+    .user-icon{
+        font-size: 16px;
+    }
+    .options-container{
+        font-size: 12px;
+    }
+    #custom-button{
+        font-size: 12px;
+    }  
+    .basic-logo{
+        display: none;
+    } 
+    .basic-title{
+        display: none;
+    }
+    .no-icons{
+        padding:3px!important;
+    }
+    .basics{
+        margin-top: 40px !important;
+    }
+    .basics-title{
+        font-size: 16px;
+    }
+    .signup-wrapper-username{
+        padding: 0px 18px;
+    }
+    .choose-photo{
+        padding: 12px 0px;
+        font-size: 12px;
+    }
+    .otp-wrapper{
+        width: 95%;
+    }
+    .otp-button{
+        border:0.5px solid white !important;
+    }
+    .otp-title{
+        font-size: 18px;
+    }
+    .otp-description{
+        font-size: 12px;
+    }
+    
+}   
