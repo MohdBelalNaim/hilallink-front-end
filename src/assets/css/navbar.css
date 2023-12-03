@@ -1,0 +1,38 @@
+.action-icons-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.action-icon{
+    font-size: 28px;
+}
+.action-icons{
+    padding: 10px 0px;
+}
+.action-center-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px;
+}
+.action-item{
+    padding: 10px 10px;
+}
+.logo-items-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logoimage{
+    height: 40px;
+    width: 40px;
+}
+.search-input{
+    all: unset;
+    border: 1px solid gray;
+    padding: 8px 14px;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: white;
+}
+.house{
+    border-bottom: 4px solid magenta;
+}
