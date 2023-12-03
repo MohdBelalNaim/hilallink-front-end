@@ -3,10 +3,10 @@
     justify-content: space-evenly;
 }
 .action-icon{
-    font-size: 28px;
+    font-size: 22px;
 }
 .action-icons{
-    padding: 10px 0px;
+    padding: 8px 0px;
 }
 .action-center-wrapper{
     display: flex;
@@ -14,21 +14,21 @@
     padding: 0px 10px;
 }
 .action-item{
-    padding: 10px 10px;
+    padding: 8px 10px;
 }
 .logo-items-wrapper{
     display: flex;
     align-items: center;
-    padding: 10px 10px;
+    padding: 8px 10px;
 }
 .logoimage{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 .search-input{
     all: unset;
     border: 1px solid gray;
-    padding: 8px 14px;
+    padding: 5px 12px;
     border-radius: 50px;
     margin-left: 10px;
     background-color: white;
