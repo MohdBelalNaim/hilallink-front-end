@@ -1,5 +1,107 @@
 .feed-wrapper{
-    height: 100vh;
     background-image: url('../images/hilalbackground.jpg');
-    background-size: cover;
+    background-size: cover;   
+}
+.post-data-wrapper{
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white !important;
+    overflow: scroll;
+}
+.user-photo-wrapper{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url('../images/avtar.png');
+    background-position: center;
+    background-size: contain;
+}
+.plus-icon{
+    font-size: 30px;
+    color: gray;
+}
+.input-skeleton{
+    border: 1px solid lightgray;
+    color: gray;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+    width: 420px;
+}
+.extra-icon{
+    font-size: 22px;
+    color: gray;
+}
+.feed-item{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.feed-item-descripton{
+    font-size: 14px;
+    padding: 0px 14px;
+    margin-bottom: 10px;
+}
+.feed-item-image{
+    height: 260px;
+}
+.feed-post-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.feed-item-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+.feed-action-item{
+    font-size: 12px;
+}
+.feed-item-actions i{
+    font-size: 22px;
+    padding: 0px 5px;
+}
+.feed-item-title{
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.feed-edit-options{
+    display: flex;
+    align-items: center;
+}
+.feed-time{
+    font-size: 12px;
+    color: gray;
+    margin-right: 10px;
+}
+.feed-user-info-wrapper{
+    display: flex;
+}
+.user-image-info{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+.user-image-data{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.feed-user-name{
+    font-size: 16px;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.feed-user-name-unique{
+    font-size: 12px;
+    margin-left: 14px;
+    color: gray;
 }

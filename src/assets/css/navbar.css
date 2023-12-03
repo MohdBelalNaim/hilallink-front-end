@@ -1,6 +1,7 @@
 .navbar-top{
     position: fixed;
     top: 0;
+    background-color: white;
 }
 .action-icons-wrapper{
     display: flex;

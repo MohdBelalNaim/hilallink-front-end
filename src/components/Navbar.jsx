@@ -3,7 +3,7 @@ import '../assets/css/navbar.css'
 import Logo from '../assets/images/hilalLogo.png'
 const Navbar = () => {
 return (
-<div className="container-fluid bg-light navbar-top">
+<div className="container-fluid navbar-top">
     <div className="row">
         <div className="col-lg-3">
             <div className="logo-items-wrapper">
