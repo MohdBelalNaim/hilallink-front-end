@@ -1,3 +1,7 @@
+.navbar-top{
+    position: fixed;
+    top: 0;
+}
 .action-icons-wrapper{
     display: flex;
     justify-content: space-evenly;
