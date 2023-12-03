@@ -21,7 +21,7 @@ const Main = () => {
                 <div className="post-data-item">
                   <i className="bi bi-plus-circle-fill plus-icon"></i>
                 </div>
-                <div className="post-data-item">
+                <div className="post-data-item post-input">
                   <div className="input-skeleton">Write here, you want to say</div>
                 </div>
                 <div className="post-data-item">

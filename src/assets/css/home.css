@@ -26,7 +26,10 @@
     padding: 10px 10px;
     border-radius: 30px;
     font-size: 12px;
-    width: 420px;
+    width: 100%;
+}
+.post-input{
+    width: 100%;
 }
 .extra-icon{
     font-size: 22px;
@@ -35,7 +38,7 @@
 .feed-item{
     background-color: white;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .feed-item-descripton{
     font-size: 14px;
