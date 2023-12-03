@@ -25,10 +25,13 @@ const Main = () => {
                   <div className="input-skeleton">Write here, you want to say</div>
                 </div>
                 <div className="post-data-item">
-                  <i className="bi bi-film extra-icon"></i>
+                  <i className="bi bi-image extra-icon"></i>
                 </div>
                 <div className="post-data-item">
-                  <i className="bi bi-image extra-icon"></i>
+                  <i className="bi bi-filetype-gif extra-icon"></i>
+                </div>
+                <div className="post-data-item">
+                  <i className="bi bi-film extra-icon"></i>
                 </div>
               </div>
               <PostWithPhoto/>

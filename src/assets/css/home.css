@@ -8,6 +8,9 @@
     background-color: white !important;
     overflow: scroll;
 }
+.post-data-wrapper::-webkit-scrollbar{
+    display: none !important;
+}
 .user-photo-wrapper{
     height:50px;
     width: 50px;
@@ -32,7 +35,7 @@
     width: 100%;
 }
 .extra-icon{
-    font-size: 22px;
+    font-size: 18px;
     color: gray;
 }
 .feed-item{
