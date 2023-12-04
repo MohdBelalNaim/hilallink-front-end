@@ -14,10 +14,12 @@ html{
     scroll-snap-align: start;
     position: relative;
     scroll-snap-stop: always;
+    overflow: hidden;
 }
 .vide-player{
     height: 100%;
     width: 100%;
+    max-height: 100% !important;
 }
 .video-container::-webkit-scrollbar{
     display: none;
