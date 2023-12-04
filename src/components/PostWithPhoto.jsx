@@ -15,7 +15,7 @@ return (
                     </div>
                 </div>
                 <div className="feed-user-info">
-                    <div className='feed-user-name'><b>Dr. Alama Hussain Madani</b></div>
+                    <div className='feed-user-name'><b>Dr. Alama</b></div>
                     <div className='feed-user-name-unique'>@DrHussainMadani</div>
                 </div>
             </div>

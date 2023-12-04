@@ -11,7 +11,7 @@
     font-size: 22px;
 }
 .action-icons{
-    padding: 8px 0px;
+    padding: 8px 16px;
 }
 .action-center-wrapper{
     display: flex;
@@ -40,4 +40,48 @@
 }
 .house{
     border-bottom: 4px solid magenta;
+}
+.navbar-user-image{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+.navbar-image-data{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* bottom navbar */
+.bottom-navbar{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+
+/* mobile header */
+.mobile-header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.mobile-logo-wrapper{
+    height: 30px;
+    width: 30px;
+}
+.mobile-logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 4px;
+}
+
+@media only screen and (max-width:600px){
+    .navbar-top{
+        display: none;
+    }
 }

@@ -63,7 +63,7 @@
     padding: 10px 16px;
 }
 .feed-action-item{
-    font-size: 12px;
+    font-size: 14px;
 }
 .feed-item-actions i{
     font-size: 22px;
@@ -106,4 +106,138 @@
     font-size: 12px;
     margin-left: 14px;
     color: gray;
+}
+.feed-item-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 20px;
+}
+.reactions{
+    width: 40%;
+}
+.reaction-count{
+    font-size: 14px;
+    margin-left: 10px;
+    color: gray;
+}
+.dateTime{
+    font-size: 12px;
+    color: gray;
+}
+.comment-wrapper{
+    background-color: white;
+    padding: 12px 16px;
+    margin-top: 6px;
+}
+.comment-photo-wrapper{
+    height: 40px;
+    width: 40px;
+}
+.comment-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.comment-user-detail-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+}
+.input-comment-skeleton{
+    width: 100% !important;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.comment-user-info{
+    display: flex;
+}
+.comment-username{
+    font-size: 12px;
+    color: gray;
+}
+.comment-name{
+    font-size: 14px;
+    margin: 0px 14px;
+}
+.comment-data{
+    font-size: 14px;
+    padding: 0px 14px;
+}
+.comment-actions{
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+}
+.comment-time{
+    font-size: 14px;
+    color: gray;
+}
+.comment-like-icon{
+    font-size: 18px;
+    margin-left: 20px;
+    color: gray;
+}
+.comment-like-count{
+    font-size: 14px;
+    margin-left: 5px;
+    color: gray;
+}
+.comment-header{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-icon{
+    margin-left: 16px;
+    font-size: 18px;
+}
+.mobile-bottom-padding{
+    height: 60px;
+}
+@media only screen and (max-width:600px){
+    .bottom-navbar{
+        display: block;
+    }
+    .post-data-wrapper{
+        margin-top: 10px;
+        padding: 10px 0px;
+        padding-right: 6px;
+    }
+    .user-photo-wrapper{
+        display: none;
+    }
+    .clip-icon{
+        display: none;
+    }
+    .input-skeleton{
+        padding: 6px 10px;
+    }
+    .feed-user-name{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .feed-user-name-unique{
+        font-size: 10px;
+    }
+    .feed-time{
+        font-size: 10px;
+    }
+    .user-image-info{
+        height: 30px;
+        width: 30px;
+    }
+    .feed-item-descripton{
+        font-size: 12px;
+    }
+    .feed-action-item i{
+        font-size: 16px;
+    }
+    .feed-action-item{
+        font-size: 12px;
+    }
+    .action-icon{
+        font-size: 24px;
+    }
 }
