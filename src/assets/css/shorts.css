@@ -36,7 +36,7 @@ html{
 }
 .darker-area{
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .video-area{
     padding: 0px !important;
@@ -100,4 +100,27 @@ html{
         font-size: 10px;
         margin-left: 20px;
     }
+}
+.clip-actions{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 0px 12px;
+}
+.clip-action-icon i{
+    font-size: 18px;
+}
+.clip-action-icon{
+    margin: 0px !important;
+    padding: 6px 10px;
+    border-radius:50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action-count{
+    text-align: center;
 }

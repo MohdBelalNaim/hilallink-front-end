@@ -1,20 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import '../assets/css/home.css'
 import PostWithPhoto from '../components/PostWithPhoto'
 import PostWithText from '../components/PostWithText'
 import { Link } from 'react-router-dom'
+import CreatePost from '../components/CreatePost'
 
 const Main = () => {
+  const[showCreate,setShowCreate] = useState(false)
   return (
       <>
+        {
+          showCreate?
+          <CreatePost/>
+          :""
+        }
         <Navbar/>
         <div className="feed-wrapper">
           <div className="container">
             <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-6">
-              <div className="post-data-wrapper bg-light">
+              <div className="post-data-wrapper bg-light" onClick={()=>setShowCreate(true)}>
                 <div className="post-data-item">
                   <div className="user-photo-wrapper">
                   </div>

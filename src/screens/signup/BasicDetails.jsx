@@ -14,15 +14,15 @@ return (
   </div>
   <div className="otp-form">
     <div className="col-lg-4 otp-wrapper animate__animated animate__bounceIn">
-      <div className="otp-title text-center text-light mt-5">OTP verification</div>
-      <div className="otp-description text-center mt-2 text-light">Sent on 6386164836 <u className="px-2">Edit</u></div>
+      <div className="otp-title text-center text-dark mt-5">OTP verification</div>
+      <div className="otp-description text-center mt-2 text-dark">Sent on 6386164836 <u className="px-2">Edit</u></div>
       <div className="input-fields-otp">
         <input type="text" className="otp-input" maxLength={1}/>
         <input type="text" className="otp-input" maxLength={1}/>
         <input type="text" className="otp-input" maxLength={1}/>
         <input type="text" className="otp-input" maxLength={1}/>
       </div>
-      <div className="text-center resend text-light">Resend in 30 sec</div>
+      <div className="text-center resend text-dark">Resend in 30 sec</div>
       <Link to="/signup/username" style={{"textDecoration":"none"}}><div className="text-center"><button id="custom-button" class="otp-button mb-5">Confirm</button></div></Link>
     </div>
   </div>

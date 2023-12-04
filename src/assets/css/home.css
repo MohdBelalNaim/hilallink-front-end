@@ -1,5 +1,5 @@
 .post-data-wrapper{
-    margin-top: 60px;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -196,6 +196,90 @@
 .mobile-bottom-padding{
     height: 60px;
 }
+/* create post overlay */
+.create-dimmer{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+}
+.create-wrapper{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-form{
+    width: 45%;
+    border-radius: 10px;
+    background-color: white;
+}
+.create-post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+.draft{
+    font-size: 14px;
+    color: gray;
+}
+.create-title{
+    font-size: 18px;
+}
+.create-post-input{
+    height: 300px;
+}
+.input-placeholder-large{
+    display: flex;
+    padding: 20px;
+}
+.placeholder-image-wrapper{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+.placeholder-text{
+    font-size: 16px;
+    color: gray;
+    margin-left: 10px;
+}
+.placeholder-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.sunnah{
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+.create-post-options{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top:1px solid lightgray;
+    align-items: center;
+}
+.create-post-button{
+    all: unset;
+    text-align: center;
+    background-color: black;
+    padding: 6px 32px;
+    border-radius: 20px;
+    color: white;
+}
+.create-post-addons i{
+    color: gray;
+    font-size: 20px;
+    margin-right: 14px;    
+}
 @media only screen and (max-width:600px){
     .bottom-navbar{
         display: block;
@@ -239,5 +323,9 @@
     }
     .action-icon{
         font-size: 24px;
+    }
+
+    .create-post-form{
+        width: 90%;
     }
 }

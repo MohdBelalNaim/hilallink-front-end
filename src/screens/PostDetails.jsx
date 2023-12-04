@@ -11,7 +11,7 @@ return (
   <div className="container">
     <div className="row">
       <div className="col-lg-3"></div>
-      <div className="col-lg-6" style={{"marginTop":55+"px"}}>
+      <div className="col-lg-6" style={{"marginTop":10+"px"}}>
         <PostWithPhotoDetails />
 
         <div className="comment-wrapper rounded">

@@ -32,8 +32,35 @@ const ClipVideo = (props) => {
     }
 
     return (
-    <div  className='video-item' style={{"backgroundColor":props.color}}>
+    <div  className='video-item'>
+    
         <div className="vid-info">
+            <div className='clip-actions'>
+                <div className="clip-action-item">
+                    <div className="clip-action-icon">
+                        <i className="bi bi-hand-thumbs-up"></i>
+                    </div>
+                    <div className="action-count">22</div>
+                </div>
+                <div className="clip-action-item">
+                    <div className="clip-action-icon">
+                        <i className="bi bi-chat-fill"></i>
+                    </div>
+                    <div className="clip-action-count">22</div>
+                </div>
+                <div className="clip-action-item">
+                    <div className="clip-action-icon">
+                        <i className="bi bi-share"></i>
+                    </div>
+                    <div className="clip-action-count">22</div>
+                </div>
+                <div className="clip-action-item">
+                    <div className="clip-action-icon">
+                        <i className="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <div className="clip-action-count">22</div>
+                </div>
+            </div>
             <div className="vid-info-item">
                 <div className="vid-info-sub">
                     <div className="user-image-wrapper">

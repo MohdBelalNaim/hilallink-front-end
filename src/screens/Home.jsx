@@ -21,8 +21,8 @@ return (
         !sent?
         <span>
         <div onClick={()=>setForgot(false)}><i className="bi bi-x text-light px-1 py-1" style={{"font-size":20+"px"}}></i></div>
-        <div className="otp-title text-center text-light mt-4">Find your HilalLink account</div>
-        <div className="otp-description forgot-desc text-center mt-2 text-light"  style={{"fontSize":14+"px"}}>Enter the phone number associated with your account to change your password</div>
+        <div className="otp-title text-center text-dark mt-4">Find your HilalLink account</div>
+        <div className="otp-description forgot-desc text-center mt-2 text-dark"  style={{"fontSize":14+"px"}}>Enter the phone number associated with your account to change your password</div>
         <div className="row">
           <div className="col-lg-2"></div>
           <div className="col-lg-8">
@@ -38,8 +38,8 @@ return (
         verified?
         <span>
           <div onClick={()=>setForgot(false)}><i className="bi bi-x text-light px-1 py-1" style={{"font-size":20+"px"}}></i></div>
-          <div className="animate__animated animate__fadeInDown mt-5 otp-title text-center text-light">Create a new password for your account</div>
-          <div className="animate__animated animate__fadeInDown otp-description forgot-desc text-center mt-2 text-light"  style={{"fontSize":14+"px"}}>We have verified your phone number, kindly create a new strong password to protect your account</div>
+          <div className="animate__animated animate__fadeInDown mt-5 otp-title text-center text-dark">Create a new password for your account</div>
+          <div className="animate__animated animate__fadeInDown otp-description forgot-desc text-center mt-2 text-dark"  style={{"fontSize":14+"px"}}>We have verified your phone number, kindly create a new strong password to protect your account</div>
           <div className="row">
             <div className="col-lg-2"></div>
             <div className="col-lg-8 mt-3">
@@ -57,7 +57,7 @@ return (
               }}>
                 Reset password
               </button>
-              <div class="animate__animated animate__fadeInDown code-info text-light mt-3 text-center py-3 mb-4">Contact us if you don't have access</div>
+              <div class="animate__animated animate__fadeInDown code-info text-dark mt-3 text-center py-3 mb-4">Contact us if you don't have access</div>
             </div>
             <div className="col-lg-2"></div>
           </div>
@@ -65,17 +65,17 @@ return (
         :
         <span>
         <div onClick={()=>setForgot(false)}><i className="bi bi-x text-light px-1 py-1" style={{"font-size":20+"px"}}></i></div>
-        <div className="animate__animated animate__fadeInDown mt-5 otp-title text-center text-light">We sent you a code</div>
-        <div className="animate__animated animate__fadeInDown otp-description forgot-desc text-center mt-2 text-light"  style={{"fontSize":14+"px"}}>Check your email to get your confirmation code.If you need a new code go back and re-enter your number</div>
+        <div className="animate__animated animate__fadeInDown mt-5 otp-title text-center text-dark">We sent you a code</div>
+        <div className="animate__animated animate__fadeInDown otp-description forgot-desc text-center mt-2 text-dark"  style={{"fontSize":14+"px"}}>Check your email to get your confirmation code.If you need a new code go back and re-enter your number</div>
         <div className="row">
           <div className="col-lg-2"></div>
           <div className="col-lg-8">
-            <div class="animate__animated animate__fadeInDown code-info text-light mt-3 text-center py-3">The code has been sent on <b>phone number ending in 42</b></div>
+            <div class="animate__animated animate__fadeInDown code-info text-dark mt-3 text-center py-3">The code has been sent on <b>phone number ending in 42</b></div>
             <div className="custom-input no-icon py-3 animate__animated animate__fadeInDown ">
               <input type="text" className="custom-input-field" placeholder='Enter your code' />
             </div>
             <button id="custom-button" class="animate__animated animate__fadeInDown forgot-button" onClick={()=>setVerified(true)}>Verify</button>
-            <div class="animate__animated animate__fadeInDown code-info text-light mt-3 text-center py-3 mb-4">Contact us if you don't have access</div>
+            <div class="animate__animated animate__fadeInDown code-info text-dark mt-3 text-center py-3 mb-4">Contact us if you don't have access</div>
           </div>
           <div className="col-lg-2"></div>
         </div>
