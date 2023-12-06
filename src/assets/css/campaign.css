@@ -246,6 +246,8 @@
     width: 50px;
     border-radius: 50%;
     background-color: red;
+    position: relative;
+    top: 10px;
 }
 .img-fit{
     height: 100%;

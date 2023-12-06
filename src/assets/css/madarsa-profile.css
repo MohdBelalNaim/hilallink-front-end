@@ -76,8 +76,6 @@
 .madarsa-dp-wrapper{
     height: 150px;
     width: 150px;
-    background-color: red;
-    border-radius: 50%;
     position: absolute;
     bottom: 0px;
     z-index: 999999999;

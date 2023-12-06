@@ -150,19 +150,9 @@ return (
                     </button>
                   </div>
                   <div className="donation-campaigner-info border-bottom px-4 py-4">
-                    <div className="campaigner-info-card mb-3">
-                      <div className="campaigner-info-img-wrapper">
-                        <img src={avatar} alt="" className="img-fit" />
-                      </div>
-                      <div className="campaigner-name">
-                        <div className='text-muted'><b>Campaigner</b></div>
-                        <div className='mt-1 mb-1'>Madarsa Hanfiya Zyaul...</div>
-                        <div className='text-muted'>@HanfiyaZyaulQuraan</div>
-                      </div>
-                    </div>
                     <div className="campaigner-info-card">
                       <div className="campaigner-info-img-wrapper">
-                        <img src={avatar} alt="" className="img-fit" />
+                        <img src={avatar} alt="" className="img-fit ben-img" />
                       </div>
                       <div className="campaigner-name">
                         <div className='text-muted'><b>Benificiary</b></div>
@@ -171,7 +161,7 @@ return (
                       </div>
                     </div>
                   </div>
-                  <div className="verified-wrapper mt-5">
+                  <div className="verified-wrapper mt-3">
                     <div className="text-center verified-title text-muted">
                       Zakat Verified
                     </div>
