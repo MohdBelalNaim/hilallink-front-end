@@ -63,7 +63,7 @@ return (
                         <i className="action-icon bi bi-person-plus-fill"></i>
                     </div>
                     <div className="action-icons">
-                        <i className="action-icon bi bi-bookmark-fill"></i>
+                        <i className="action-icon bi bi-box2-heart-fill"></i>
                     </div>
                 </div>
             </div>

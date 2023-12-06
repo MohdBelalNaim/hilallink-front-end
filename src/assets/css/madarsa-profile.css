@@ -1,0 +1,99 @@
+.madarsa-info-wrapper{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.madarsa-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.madarsa-username{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+.madarsa-bio{
+    font-size: 14px;
+    margin-top: 28px;
+}
+.madarsa-type-info-wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+.madarsa-type-info{
+    font-size: 14px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: gray;
+}
+.madarsa-data-content-wrapper{
+    display: flex;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+}
+.madarsa-data-item{
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.active-madarsa-item{
+    border-bottom: 4px solid magenta;
+}
+.madarsa-cover-image-wrapper{
+    height: 300px;
+    position: relative;
+}
+.madarsa-cover-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.madarsa-follower-info{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.follower-data{
+    display: flex;
+    font-size: 14px;
+    gap:16px;
+}
+.madarsa-follow-button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 16px;
+    font-size: 12px;
+}
+.madarsa-notification{
+    all: unset;
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.madarsa-dp-wrapper{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999999;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+.madarsa-basics{
+    position: relative;
+}
+.madarsa-dp{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.madarsa-details{
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}

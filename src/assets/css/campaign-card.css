@@ -1,0 +1,44 @@
+.campaign-details{
+    background-color: whitesmoke;
+    padding: 14px;
+}
+.campaign-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.campaign-support-info{
+    font-size: 14px;
+    color: gray;
+}
+.madarsa-progress-wrapper{
+    display: flex;
+    width: 100%;
+    height: 12px;
+    background-color: #bfbdbc;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.madarsa-progress{
+    width: 50%;
+    height: 12px;
+    background-color: #a16cec;
+    border-radius: 20px;
+}
+.campaign-image-wrapper{
+    height: 300px;
+}
+.campaign-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.support-madarsa-button{
+    all: unset;
+    text-align: center;
+    background-color: #a16cec;
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}

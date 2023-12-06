@@ -7,6 +7,8 @@ import Main from './screens/Main';
 import PostDetails from './screens/PostDetails';
 import Shorts from './screens/Shorts';
 import ShortsTest from './screens/ShortsTest';
+import MadarsaProfile from './screens/MadarsaProfile';
+import CampaignInfo from './screens/CampaignInfo';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/post" element={<PostDetails/>} />
         <Route path="/clips" element={<Shorts/>} />
         <Route path="/clips-test" element={<ShortsTest/>} />
+        <Route path="/madarsa" element={<MadarsaProfile/>} />
+        <Route path="/campaign" element={<CampaignInfo/>} />
       </Routes>
     </Router>
   );
