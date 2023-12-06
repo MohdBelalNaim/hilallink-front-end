@@ -1,0 +1,113 @@
+.donation-overlay{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    z-index: 99999999;
+}
+.donation-form-wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 9999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donation-form-container{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 40%;
+    height: 600px;
+    overflow: scroll;
+    margin-top: 60px;
+}
+.donation-form-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 14px 10px;
+    border-bottom:1px solid lightgray
+}
+.donation-pills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.donation-pills{
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.donation-pills:hover{
+    background-color: #a16ce6;
+    color: white;
+    cursor: pointer;
+}
+.donation-info{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.other-amount{
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    border: 0.5 px solid lightgray;
+}
+.other-amount-wrapper{
+    padding: 0px 60px;
+    margin-bottom: 20px;
+}
+.donation-tip-wrapper{
+    padding: 0px 50px;
+}
+.donation-tip-container{
+    background-color: #dcd8d8;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.donation-tip-title{
+    font-size: 14px;
+}
+.tip-amount-input{
+    padding: 4px;
+    border: none;
+}
+.tip-amount-input-wrapper{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.tip-one{
+    padding-left: 10px;
+    border-right: 1px solid gray;
+}
+.total-donation-amount{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.donor-details-wrapper{
+    padding: 0px 50px;
+    margin-top: 20px;
+}
+.donor-detail-input{
+    border-radius: 0px;
+    border: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+}
+.donor-detail-input::placeholder{
+    color: #b8b4b4;
+}
+.proceed-to-pay{
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}

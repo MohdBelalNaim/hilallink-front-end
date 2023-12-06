@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import '../assets/css/campaign.css'
+import '../assets/css/donation-form.css'
 import campaignImage from '../assets/images/madarsa.webp'
 import DonatorCard from './DonatorCard'
 import CampaignUpdates from '../components/CampaignUpdates'
@@ -11,6 +12,8 @@ const CampaignInfo = () => {
 const[all,setAll] = useState(false)
 const[about,setAbout] = useState(false)
 const[updates,setUpdates] = useState(true)
+const[donate,setDonate] = useState(false)
+
 function showUpdates(){
 setAbout(false)
 setUpdates(true)
@@ -48,6 +51,71 @@ return (
   </>:
   ""
   }
+  {
+  donate?
+  <>
+    <div className="donation-overlay"></div>
+    <div className="donation-form-wrapper">
+      <div className="donation-form-container">
+        <div className="donation-form-header">
+          <div className="donation-form-header-items"><i className="bi bi-x-circle" onClick={()=>setDonate(false)} style={{"color":"#b8b4b4","cursor":"pointer"}}></i>
+          </div>
+          <div className="donation-form-header-items">Donation form</div>
+          <div className="donation-form-header-items">&nbsp;</div>
+        </div>
+        <div className="donation-form-body">
+          <div className="donation-info">
+            Choose or enter your amount
+          </div>
+          <div className="donation-pills-container">
+            <div className="donation-pills shadow">₹5000</div>
+            <div className="donation-pills shadow">₹3000</div>
+            <div className="donation-pills shadow">₹1500</div>
+          </div>
+          <div className="other-amount-wrapper">
+            <input type="tel" className="other-amount shadow" placeholder='Enter your own amount' />
+          </div>
+          <div className="donation-tip-wrapper">
+            <div className="donation-tip-container">
+              <div className="donation-tip-title">
+                GiveUmma <span style={{"fontSize":12+"px"}}>(an initiative of HilalLink)</span> does not charge any fees
+                from the benificiaries, we only rely on kind support from Givers like you.
+              </div>
+              <div className="donation-tip-input-wrapper mt-3">
+                <div className="row gx-0">
+                  <div className="col-lg-7 donation-tip-title" style={{"position":"relative","top":6+"px"}}>Support us
+                    by adding a tip of</div>
+                  <div className="col-lg-5" style={{"paddingRight":20+"px"}}>
+                    <div className="row gx-0 bg-light tip-amount-input-wrapper">
+                      <div className="col-lg-4"><input value="10%" className='tip-amount-input tip-one'
+                          style={{"width":100+"%"}} type="text" /></div>
+                      <div className="col-lg-8"><input value="500.00" className='tip-amount-input'
+                          style={{"width":100+"%","paddingLeft":10+"px"}} type="text" /></div>
+                    </div>
+                    <div className="total-donation-amount">Total Amount INR 2200</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="donor-details-wrapper">
+            <input placeholder='Name *' type="text" className="donor-detail-input form-control" />
+            <input placeholder='Email address *' type="text" className="mt-4 donor-detail-input form-control" />
+            <input placeholder='Mobile Number *' type="text" className="mt-4 donor-detail-input form-control" />
+            <input placeholder='Address *' type="text" className="mt-4 donor-detail-input form-control" />
+            <input placeholder='Pan card (Optional : Required for Tax benifits)' type="text"
+              className="mt-4 donor-detail-input form-control" />
+            <div className="pay-donation-wrapper text-center py-4">
+              <button className='proceed-to-pay'>Proceed To Pay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </>
+  :""
+  }
+
   <Navbar />
   <div className="container-fluid mb-5">
     <div className="row">
@@ -145,7 +213,7 @@ return (
                         18 <span style={{"color":"gray"}}>Days left</span>
                       </div>
                     </div>
-                    <button className="donate-now-button">
+                    <button className="donate-now-button" onClick={()=>setDonate(true)}>
                       Donate Now
                     </button>
                   </div>
@@ -167,6 +235,16 @@ return (
                     </div>
                     <div className="text-center verfied-body text-muted">
                       This campaign is Zakat Verfied
+                    </div>
+                  </div>
+                  <div className="share-campaign-main">
+                    <div className="share-campaign-wrapper">
+                      <div className="share-campaign-items text-light">Share on</div>
+                      <div className="share-campaign-items">
+                        <i className="bi bi-facebook text-light share-social-icons"></i>
+                        <i className="bi bi-twitter-x text-light share-social-icons"></i>
+                        <i className="bi bi-whatsapp text-light share-social-icons"></i>
+                      </div>
                     </div>
                   </div>
                 </div>

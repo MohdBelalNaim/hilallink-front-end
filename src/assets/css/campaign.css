@@ -254,3 +254,21 @@
     width: 100%;
     object-fit: contain;
 }
+.share-campaign-main{
+    padding: 0px 20px;
+}
+.share-campaign-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.share-social-icons{
+    font-size: 20px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
