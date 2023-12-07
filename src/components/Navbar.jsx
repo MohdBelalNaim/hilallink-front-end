@@ -2,7 +2,21 @@ import React from 'react'
 import '../assets/css/navbar.css'
 import Logo from '../assets/images/hilalLogo.png'
 import avatar from '../assets/images/avtar.png'
+import { useDispatch, useSelector } from 'react-redux'
+import { showSearch,hideSearch } from '../redux/searchActions'
+
 const Navbar = () => {
+    const dispatch = useDispatch()
+    const search = useSelector(state=>state.search)
+
+    function startSearch(){
+        dispatch(showSearch())
+    }
+
+    function endSearch(){
+        dispatch(hideSearch())
+    }
+    
 return (
 <>
     <div className="bottom-navbar">
@@ -41,10 +55,17 @@ return (
             <div className="col-lg-3">
                 <div className="logo-items-wrapper">
                     <div className="logo-item">
-                        <img src={Logo} className='logoimage' alt="websitelogo"/>
+                        {
+                            search?
+                            <i onClick={()=>endSearch()} className="bi bi-x-circle" style={{"fontSize":26+"px","cursor":'pointer'}}></i>
+                            :
+                            <img src={Logo} className='logoimage' alt="websitelogo"/>
+                        }
+                        
+                        
                     </div>
                     <div className="logo-item">
-                        <input type="text" className='search-input' placeholder='search' />
+                        <input type="text" onFocus={()=>startSearch()} className='search-input' placeholder='search' />
                     </div>
                 </div>
             </div>
@@ -63,7 +84,7 @@ return (
                         <i className="action-icon bi bi-person-plus-fill"></i>
                     </div>
                     <div className="action-icons">
-                        <i className="action-icon bi bi-box2-heart-fill"></i>
+                        <i className="action-icon bi bi-binoculars-fill"></i>
                     </div>
                 </div>
             </div>
