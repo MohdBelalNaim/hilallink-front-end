@@ -5,11 +5,9 @@ import PostWithPhoto from '../components/PostWithPhoto'
 import PostWithText from '../components/PostWithText'
 import { Link } from 'react-router-dom'
 import CreatePost from '../components/CreatePost'
-import { useSelector } from 'react-redux'
 
 const Main = () => {
 const[showCreate,setShowCreate] = useState(false)
-const search = useSelector(state=>state.search)
 
 return (
 <>
@@ -23,8 +21,7 @@ return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-3 search-box-container">
-          {
-          search?
+         
           <div className="search-box">
             <div className="search-box-title">Try searching for</div>
             <div className="search-recommendation">
@@ -60,8 +57,7 @@ return (
               <div>Zakat</div>
             </div>
           </div>
-          :""
-          }
+          
         </div>
         <div className="col-md-6 px-5">
           <div className="post-data-wrapper bg-light" onClick={()=>setShowCreate(true)}>
